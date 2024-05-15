@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Elements Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#f1ffc4;">
+    <font face="Comic Sans MS (cursive)" color=#FFFFFF>
+    <h1>Periodic Elements Search</h1>
+    <input type="search" id="search-input" placeholder="Search for an element">
+    <button id="search-btn">Search</button>
+    <div id="result-container">
+        <h2 id="element-name"></h2>
+        <ul id="element-properties">
+            <li><span>Atomic Number:</span> <span id="atomic-number"></span></li>
+            <li><span>Atomic Mass:</span> <span id="atomic-mass"></span></li>
+            <li><span>Symbol:</span> <span id="symbol"></span></li>
+            <li><span>Group:</span> <span id="group"></span></li>
+            <li><span>Period:</span> <span id="period"></span></li>
+        </ul>
+    </div>
+    </font>
+
+    <script src="script.js"></script>
+</body>
+</html>
